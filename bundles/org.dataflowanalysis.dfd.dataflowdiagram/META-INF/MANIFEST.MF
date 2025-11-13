@@ -7,10 +7,10 @@ Bundle-Version: 4.0.0.qualifier
 Bundle-ClassPath: .
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
-Bundle-RequiredExecutionEnvironment: J2SE-1.5
-Export-Package: org.dataflowanalysis.dfd.dataflowdiagram,
- org.dataflowanalysis.dfd.dataflowdiagram.impl,
- org.dataflowanalysis.dfd.dataflowdiagram.util
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Export-Package: dataflowdiagram,
+ dataflowdiagram.impl,
+ dataflowdiagram.util
 Require-Bundle: org.eclipse.emf.ecore;visibility:=reexport,
  org.eclipse.core.runtime,
  tools.mdsd.modelingfoundations.identifier;visibility:=reexport,
