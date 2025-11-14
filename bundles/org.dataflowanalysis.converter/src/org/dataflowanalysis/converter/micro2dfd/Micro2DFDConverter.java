@@ -20,7 +20,7 @@ import org.dataflowanalysis.dfd.dataflowdiagram.*;
  * Converts MicroSecEnd models to the data flow diagram and dictionary representation
  */
 public class Micro2DFDConverter extends Converter {
-    private final dataflowdiagramFactory dfdFactory;
+    private final DataflowdiagramFactory dfdFactory;
     private final datadictionaryFactory ddFactory;
 
     private Map<String, Node> nodesMap;
@@ -33,7 +33,7 @@ public class Micro2DFDConverter extends Converter {
     private int idCounter;
 
     public Micro2DFDConverter() {
-        dfdFactory = dataflowdiagramFactory.eINSTANCE;
+        dfdFactory = DataflowdiagramFactory.eINSTANCE;
         ddFactory = datadictionaryFactory.eINSTANCE;
 
     }

@@ -26,7 +26,7 @@ import org.dataflowanalysis.dfd.datadictionary.datadictionaryFactory;
 import org.dataflowanalysis.dfd.dataflowdiagram.DataFlowDiagram;
 import org.dataflowanalysis.dfd.dataflowdiagram.Flow;
 import org.dataflowanalysis.dfd.dataflowdiagram.Node;
-import org.dataflowanalysis.dfd.dataflowdiagram.dataflowdiagramFactory;
+import org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramFactory;
 
 public class Web2DFDConverter extends Converter {
     private final static Logger logger = Logger.getLogger(Web2DFDConverter.class);
@@ -34,13 +34,13 @@ public class Web2DFDConverter extends Converter {
     protected final static String DELIMITER_PIN_NAME = "|";
     protected final static String DELIMITER_MULTI_PIN = ",";
 
-    private final dataflowdiagramFactory dfdFactory;
+    private final DataflowdiagramFactory dfdFactory;
     private final datadictionaryFactory ddFactory;
     private Map<String, Node> idToNodeMap;
     private BehaviorConverter behaviorConverter;
 
     public Web2DFDConverter() {
-        dfdFactory = dataflowdiagramFactory.eINSTANCE;
+        dfdFactory = DataflowdiagramFactory.eINSTANCE;
         ddFactory = datadictionaryFactory.eINSTANCE;
     }
 

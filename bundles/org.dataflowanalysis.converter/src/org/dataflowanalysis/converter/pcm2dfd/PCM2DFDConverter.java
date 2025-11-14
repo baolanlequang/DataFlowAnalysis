@@ -38,7 +38,7 @@ import org.dataflowanalysis.dfd.datadictionary.Pin;
 import org.dataflowanalysis.dfd.datadictionary.datadictionaryFactory;
 import org.dataflowanalysis.dfd.dataflowdiagram.DataFlowDiagram;
 import org.dataflowanalysis.dfd.dataflowdiagram.Node;
-import org.dataflowanalysis.dfd.dataflowdiagram.dataflowdiagramFactory;
+import org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramFactory;
 import org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.EnumCharacteristicType;
 import org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.Literal;
 import org.dataflowanalysis.pcm.extension.dictionary.characterized.DataDictionaryCharacterized.expressions.And;
@@ -136,7 +136,7 @@ public class PCM2DFDConverter extends Converter {
 
     private DataFlowDiagramAndDictionary processPalladio(FlowGraphCollection flowGraphCollection) {
         dataDictionary = datadictionaryFactory.eINSTANCE.createDataDictionary();
-        dataFlowDiagram = dataflowdiagramFactory.eINSTANCE.createDataFlowDiagram();
+        dataFlowDiagram = DataflowdiagramFactory.eINSTANCE.createDataFlowDiagram();
         for (AbstractTransposeFlowGraph transposeFlowGraph : flowGraphCollection.getTransposeFlowGraphs()) {
             transposeFlowGraph.getVertices()
                     .stream()
@@ -261,7 +261,7 @@ public class PCM2DFDConverter extends Converter {
         var sourceNode = dfdNodeMap.get(sourceVertex);
         var destinationNode = dfdNodeMap.get(destinationVertex);
         for (var dataCharacteristic : intersectingDataCharacteristics) {
-            var flow = dataflowdiagramFactory.eINSTANCE.createFlow();
+            var flow = DataflowdiagramFactory.eINSTANCE.createFlow();
             var inPin = destinationNode.getBehavior()
                     .getInPin()
                     .stream()
@@ -298,7 +298,7 @@ public class PCM2DFDConverter extends Converter {
         var sourceNode = dfdNodeMap.get(sourceVertex);
         var destinationNode = dfdNodeMap.get(destinationVertex);
 
-        var flow = dataflowdiagramFactory.eINSTANCE.createFlow();
+        var flow = DataflowdiagramFactory.eINSTANCE.createFlow();
         var inPin = datadictionaryFactory.eINSTANCE.createPin();
         var outPin = datadictionaryFactory.eINSTANCE.createPin();
 
@@ -352,9 +352,9 @@ public class PCM2DFDConverter extends Converter {
         Node node;
 
         if (pcmVertex instanceof UserPCMVertex<?>) {
-            node = dataflowdiagramFactory.eINSTANCE.createExternal();
+            node = DataflowdiagramFactory.eINSTANCE.createExternal();
         } else if (pcmVertex instanceof SEFFPCMVertex<?>) {
-            node = dataflowdiagramFactory.eINSTANCE.createProcess();
+            node = DataflowdiagramFactory.eINSTANCE.createProcess();
         } else {
             logger.error("Unregcognized palladio element");
             return null;
