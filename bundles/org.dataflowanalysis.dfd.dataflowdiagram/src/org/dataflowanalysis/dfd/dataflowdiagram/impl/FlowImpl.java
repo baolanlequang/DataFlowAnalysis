@@ -1,12 +1,12 @@
 /**
  */
-package dataflowdiagram.impl;
-
-import dataflowdiagram.DataflowdiagramPackage;
-import dataflowdiagram.Flow;
-import dataflowdiagram.Node;
+package org.dataflowanalysis.dfd.dataflowdiagram.impl;
 
 import org.dataflowanalysis.dfd.datadictionary.Pin;
+
+import org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage;
+import org.dataflowanalysis.dfd.dataflowdiagram.Flow;
+import org.dataflowanalysis.dfd.dataflowdiagram.Node;
 
 import org.eclipse.emf.common.notify.Notification;
 
@@ -25,10 +25,10 @@ import tools.mdsd.modelingfoundations.identifier.impl.EntityImpl;
  * The following features are implemented:
  * </p>
  * <ul>
- *   <li>{@link dataflowdiagram.impl.FlowImpl#getSourceNode <em>Source Node</em>}</li>
- *   <li>{@link dataflowdiagram.impl.FlowImpl#getDestinationNode <em>Destination Node</em>}</li>
- *   <li>{@link dataflowdiagram.impl.FlowImpl#getDestinationPin <em>Destination Pin</em>}</li>
- *   <li>{@link dataflowdiagram.impl.FlowImpl#getSourcePin <em>Source Pin</em>}</li>
+ *   <li>{@link org.dataflowanalysis.dfd.dataflowdiagram.impl.FlowImpl#getSourceNode <em>Source Node</em>}</li>
+ *   <li>{@link org.dataflowanalysis.dfd.dataflowdiagram.impl.FlowImpl#getDestinationNode <em>Destination Node</em>}</li>
+ *   <li>{@link org.dataflowanalysis.dfd.dataflowdiagram.impl.FlowImpl#getDestinationPin <em>Destination Pin</em>}</li>
+ *   <li>{@link org.dataflowanalysis.dfd.dataflowdiagram.impl.FlowImpl#getSourcePin <em>Source Pin</em>}</li>
  * </ul>
  *
  * @generated

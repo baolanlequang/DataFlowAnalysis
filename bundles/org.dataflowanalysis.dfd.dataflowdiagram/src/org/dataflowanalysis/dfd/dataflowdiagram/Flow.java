@@ -1,6 +1,6 @@
 /**
  */
-package dataflowdiagram;
+package org.dataflowanalysis.dfd.dataflowdiagram;
 
 import org.dataflowanalysis.dfd.datadictionary.Pin;
 
@@ -15,13 +15,13 @@ import tools.mdsd.modelingfoundations.identifier.Entity;
  * The following features are supported:
  * </p>
  * <ul>
- *   <li>{@link dataflowdiagram.Flow#getSourceNode <em>Source Node</em>}</li>
- *   <li>{@link dataflowdiagram.Flow#getDestinationNode <em>Destination Node</em>}</li>
- *   <li>{@link dataflowdiagram.Flow#getDestinationPin <em>Destination Pin</em>}</li>
- *   <li>{@link dataflowdiagram.Flow#getSourcePin <em>Source Pin</em>}</li>
+ *   <li>{@link org.dataflowanalysis.dfd.dataflowdiagram.Flow#getSourceNode <em>Source Node</em>}</li>
+ *   <li>{@link org.dataflowanalysis.dfd.dataflowdiagram.Flow#getDestinationNode <em>Destination Node</em>}</li>
+ *   <li>{@link org.dataflowanalysis.dfd.dataflowdiagram.Flow#getDestinationPin <em>Destination Pin</em>}</li>
+ *   <li>{@link org.dataflowanalysis.dfd.dataflowdiagram.Flow#getSourcePin <em>Source Pin</em>}</li>
  * </ul>
  *
- * @see dataflowdiagram.DataflowdiagramPackage#getFlow()
+ * @see org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage#getFlow()
  * @model
  * @generated
  */
@@ -32,14 +32,14 @@ public interface Flow extends Entity {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Source Node</em>' reference.
 	 * @see #setSourceNode(Node)
-	 * @see dataflowdiagram.DataflowdiagramPackage#getFlow_SourceNode()
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage#getFlow_SourceNode()
 	 * @model required="true"
 	 * @generated
 	 */
 	Node getSourceNode();
 
 	/**
-	 * Sets the value of the '{@link dataflowdiagram.Flow#getSourceNode <em>Source Node</em>}' reference.
+	 * Sets the value of the '{@link org.dataflowanalysis.dfd.dataflowdiagram.Flow#getSourceNode <em>Source Node</em>}' reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Source Node</em>' reference.
@@ -54,14 +54,14 @@ public interface Flow extends Entity {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Destination Node</em>' reference.
 	 * @see #setDestinationNode(Node)
-	 * @see dataflowdiagram.DataflowdiagramPackage#getFlow_DestinationNode()
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage#getFlow_DestinationNode()
 	 * @model required="true"
 	 * @generated
 	 */
 	Node getDestinationNode();
 
 	/**
-	 * Sets the value of the '{@link dataflowdiagram.Flow#getDestinationNode <em>Destination Node</em>}' reference.
+	 * Sets the value of the '{@link org.dataflowanalysis.dfd.dataflowdiagram.Flow#getDestinationNode <em>Destination Node</em>}' reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Destination Node</em>' reference.
@@ -76,14 +76,14 @@ public interface Flow extends Entity {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Destination Pin</em>' reference.
 	 * @see #setDestinationPin(Pin)
-	 * @see dataflowdiagram.DataflowdiagramPackage#getFlow_DestinationPin()
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage#getFlow_DestinationPin()
 	 * @model
 	 * @generated
 	 */
 	Pin getDestinationPin();
 
 	/**
-	 * Sets the value of the '{@link dataflowdiagram.Flow#getDestinationPin <em>Destination Pin</em>}' reference.
+	 * Sets the value of the '{@link org.dataflowanalysis.dfd.dataflowdiagram.Flow#getDestinationPin <em>Destination Pin</em>}' reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Destination Pin</em>' reference.
@@ -98,14 +98,14 @@ public interface Flow extends Entity {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Source Pin</em>' reference.
 	 * @see #setSourcePin(Pin)
-	 * @see dataflowdiagram.DataflowdiagramPackage#getFlow_SourcePin()
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage#getFlow_SourcePin()
 	 * @model
 	 * @generated
 	 */
 	Pin getSourcePin();
 
 	/**
-	 * Sets the value of the '{@link dataflowdiagram.Flow#getSourcePin <em>Source Pin</em>}' reference.
+	 * Sets the value of the '{@link org.dataflowanalysis.dfd.dataflowdiagram.Flow#getSourcePin <em>Source Pin</em>}' reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Source Pin</em>' reference.

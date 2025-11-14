@@ -6,7 +6,8 @@
     complianceLevel="21.0" copyrightFields="false" usedGenPackages="../../org.dataflowanalysis.dfd.datadictionary/model/datadictionary.genmodel#//datadictionary ../../tools.mdsd.modelingfoundations.identifier/model/identifier.genmodel#//identifier"
     operationReflection="true" importOrganizing="true">
   <foreignModel>dataflowdiagram.ecore</foreignModel>
-  <genPackages prefix="Dataflowdiagram" disposableProviderFactory="true" ecorePackage="dataflowdiagram.ecore#/">
+  <genPackages prefix="Dataflowdiagram" basePackage="org.dataflowanalysis.dfd" disposableProviderFactory="true"
+      ecorePackage="dataflowdiagram.ecore#/">
     <genClasses ecoreClass="dataflowdiagram.ecore#//DataFlowDiagram">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference dataflowdiagram.ecore#//DataFlowDiagram/flows"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference dataflowdiagram.ecore#//DataFlowDiagram/nodes"/>

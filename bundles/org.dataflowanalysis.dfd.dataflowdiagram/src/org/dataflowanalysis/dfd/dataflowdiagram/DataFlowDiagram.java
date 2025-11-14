@@ -1,6 +1,6 @@
 /**
  */
-package dataflowdiagram;
+package org.dataflowanalysis.dfd.dataflowdiagram;
 
 import org.eclipse.emf.common.util.EList;
 
@@ -15,22 +15,22 @@ import tools.mdsd.modelingfoundations.identifier.Entity;
  * The following features are supported:
  * </p>
  * <ul>
- *   <li>{@link dataflowdiagram.DataFlowDiagram#getFlows <em>Flows</em>}</li>
- *   <li>{@link dataflowdiagram.DataFlowDiagram#getNodes <em>Nodes</em>}</li>
+ *   <li>{@link org.dataflowanalysis.dfd.dataflowdiagram.DataFlowDiagram#getFlows <em>Flows</em>}</li>
+ *   <li>{@link org.dataflowanalysis.dfd.dataflowdiagram.DataFlowDiagram#getNodes <em>Nodes</em>}</li>
  * </ul>
  *
- * @see dataflowdiagram.DataflowdiagramPackage#getDataFlowDiagram()
+ * @see org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage#getDataFlowDiagram()
  * @model
  * @generated
  */
 public interface DataFlowDiagram extends Entity {
 	/**
 	 * Returns the value of the '<em><b>Flows</b></em>' containment reference list.
-	 * The list contents are of type {@link dataflowdiagram.Flow}.
+	 * The list contents are of type {@link org.dataflowanalysis.dfd.dataflowdiagram.Flow}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Flows</em>' containment reference list.
-	 * @see dataflowdiagram.DataflowdiagramPackage#getDataFlowDiagram_Flows()
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage#getDataFlowDiagram_Flows()
 	 * @model containment="true"
 	 * @generated
 	 */
@@ -38,11 +38,11 @@ public interface DataFlowDiagram extends Entity {
 
 	/**
 	 * Returns the value of the '<em><b>Nodes</b></em>' containment reference list.
-	 * The list contents are of type {@link dataflowdiagram.Node}.
+	 * The list contents are of type {@link org.dataflowanalysis.dfd.dataflowdiagram.Node}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Nodes</em>' containment reference list.
-	 * @see dataflowdiagram.DataflowdiagramPackage#getDataFlowDiagram_Nodes()
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage#getDataFlowDiagram_Nodes()
 	 * @model containment="true"
 	 * @generated
 	 */

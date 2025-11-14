@@ -1,13 +1,13 @@
 /**
  */
-package dataflowdiagram.impl;
+package org.dataflowanalysis.dfd.dataflowdiagram.impl;
 
-import dataflowdiagram.DataFlowDiagram;
-import dataflowdiagram.DataflowdiagramFactory;
-import dataflowdiagram.DataflowdiagramPackage;
-import dataflowdiagram.External;
-import dataflowdiagram.Flow;
-import dataflowdiagram.Store;
+import org.dataflowanalysis.dfd.dataflowdiagram.DataFlowDiagram;
+import org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramFactory;
+import org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage;
+import org.dataflowanalysis.dfd.dataflowdiagram.External;
+import org.dataflowanalysis.dfd.dataflowdiagram.Flow;
+import org.dataflowanalysis.dfd.dataflowdiagram.Store;
 
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;
@@ -121,7 +121,7 @@ public class DataflowdiagramFactoryImpl extends EFactoryImpl implements Dataflow
 	 * @generated
 	 */
 	@Override
-	public dataflowdiagram.Process createProcess() {
+	public org.dataflowanalysis.dfd.dataflowdiagram.Process createProcess() {
 		ProcessImpl process = new ProcessImpl();
 		return process;
 	}

@@ -1,6 +1,6 @@
 /**
  */
-package dataflowdiagram;
+package org.dataflowanalysis.dfd.dataflowdiagram;
 
 import org.dataflowanalysis.dfd.datadictionary.Behavior;
 import org.dataflowanalysis.dfd.datadictionary.Label;
@@ -18,11 +18,11 @@ import tools.mdsd.modelingfoundations.identifier.Entity;
  * The following features are supported:
  * </p>
  * <ul>
- *   <li>{@link dataflowdiagram.Node#getBehavior <em>Behavior</em>}</li>
- *   <li>{@link dataflowdiagram.Node#getProperties <em>Properties</em>}</li>
+ *   <li>{@link org.dataflowanalysis.dfd.dataflowdiagram.Node#getBehavior <em>Behavior</em>}</li>
+ *   <li>{@link org.dataflowanalysis.dfd.dataflowdiagram.Node#getProperties <em>Properties</em>}</li>
  * </ul>
  *
- * @see dataflowdiagram.DataflowdiagramPackage#getNode()
+ * @see org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage#getNode()
  * @model abstract="true"
  * @generated
  */
@@ -33,14 +33,14 @@ public interface Node extends Entity {
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Behavior</em>' reference.
 	 * @see #setBehavior(Behavior)
-	 * @see dataflowdiagram.DataflowdiagramPackage#getNode_Behavior()
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage#getNode_Behavior()
 	 * @model
 	 * @generated
 	 */
 	Behavior getBehavior();
 
 	/**
-	 * Sets the value of the '{@link dataflowdiagram.Node#getBehavior <em>Behavior</em>}' reference.
+	 * Sets the value of the '{@link org.dataflowanalysis.dfd.dataflowdiagram.Node#getBehavior <em>Behavior</em>}' reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Behavior</em>' reference.
@@ -55,7 +55,7 @@ public interface Node extends Entity {
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Properties</em>' reference list.
-	 * @see dataflowdiagram.DataflowdiagramPackage#getNode_Properties()
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage#getNode_Properties()
 	 * @model
 	 * @generated
 	 */

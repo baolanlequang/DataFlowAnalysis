@@ -18,7 +18,7 @@
       <!-- @generated dataflowdiagram -->
       <package
             uri="http://dataflowanalysis.org/dfd/dataflowdiagram"
-            class="dataflowdiagram.DataflowdiagramPackage"
+            class="org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage"
             genModel="model/dataflowdiagram.genmodel"/>
    </extension>
 

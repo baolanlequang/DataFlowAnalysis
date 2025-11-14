@@ -1,13 +1,13 @@
 /**
  */
-package dataflowdiagram.util;
+package org.dataflowanalysis.dfd.dataflowdiagram.util;
 
-import dataflowdiagram.DataFlowDiagram;
-import dataflowdiagram.DataflowdiagramPackage;
-import dataflowdiagram.External;
-import dataflowdiagram.Flow;
-import dataflowdiagram.Node;
-import dataflowdiagram.Store;
+import org.dataflowanalysis.dfd.dataflowdiagram.DataFlowDiagram;
+import org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage;
+import org.dataflowanalysis.dfd.dataflowdiagram.External;
+import org.dataflowanalysis.dfd.dataflowdiagram.Flow;
+import org.dataflowanalysis.dfd.dataflowdiagram.Node;
+import org.dataflowanalysis.dfd.dataflowdiagram.Store;
 
 import org.eclipse.emf.common.notify.Adapter;
 import org.eclipse.emf.common.notify.Notifier;
@@ -25,7 +25,7 @@ import tools.mdsd.modelingfoundations.identifier.NamedElement;
  * The <b>Adapter Factory</b> for the model.
  * It provides an adapter <code>createXXX</code> method for each class of the model.
  * <!-- end-user-doc -->
- * @see dataflowdiagram.DataflowdiagramPackage
+ * @see org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage
  * @generated
  */
 public class DataflowdiagramAdapterFactory extends AdapterFactoryImpl {
@@ -93,7 +93,7 @@ public class DataflowdiagramAdapterFactory extends AdapterFactoryImpl {
 				return createStoreAdapter();
 			}
 			@Override
-			public Adapter caseProcess(dataflowdiagram.Process object) {
+			public Adapter caseProcess(org.dataflowanalysis.dfd.dataflowdiagram.Process object) {
 				return createProcessAdapter();
 			}
 			@Override
@@ -133,13 +133,13 @@ public class DataflowdiagramAdapterFactory extends AdapterFactoryImpl {
 
 
 	/**
-	 * Creates a new adapter for an object of class '{@link dataflowdiagram.DataFlowDiagram <em>Data Flow Diagram</em>}'.
+	 * Creates a new adapter for an object of class '{@link org.dataflowanalysis.dfd.dataflowdiagram.DataFlowDiagram <em>Data Flow Diagram</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see dataflowdiagram.DataFlowDiagram
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.DataFlowDiagram
 	 * @generated
 	 */
 	public Adapter createDataFlowDiagramAdapter() {
@@ -147,13 +147,13 @@ public class DataflowdiagramAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link dataflowdiagram.Flow <em>Flow</em>}'.
+	 * Creates a new adapter for an object of class '{@link org.dataflowanalysis.dfd.dataflowdiagram.Flow <em>Flow</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see dataflowdiagram.Flow
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.Flow
 	 * @generated
 	 */
 	public Adapter createFlowAdapter() {
@@ -161,13 +161,13 @@ public class DataflowdiagramAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link dataflowdiagram.External <em>External</em>}'.
+	 * Creates a new adapter for an object of class '{@link org.dataflowanalysis.dfd.dataflowdiagram.External <em>External</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see dataflowdiagram.External
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.External
 	 * @generated
 	 */
 	public Adapter createExternalAdapter() {
@@ -175,13 +175,13 @@ public class DataflowdiagramAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link dataflowdiagram.Store <em>Store</em>}'.
+	 * Creates a new adapter for an object of class '{@link org.dataflowanalysis.dfd.dataflowdiagram.Store <em>Store</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see dataflowdiagram.Store
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.Store
 	 * @generated
 	 */
 	public Adapter createStoreAdapter() {
@@ -189,13 +189,13 @@ public class DataflowdiagramAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link dataflowdiagram.Process <em>Process</em>}'.
+	 * Creates a new adapter for an object of class '{@link org.dataflowanalysis.dfd.dataflowdiagram.Process <em>Process</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see dataflowdiagram.Process
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.Process
 	 * @generated
 	 */
 	public Adapter createProcessAdapter() {
@@ -203,13 +203,13 @@ public class DataflowdiagramAdapterFactory extends AdapterFactoryImpl {
 	}
 
 	/**
-	 * Creates a new adapter for an object of class '{@link dataflowdiagram.Node <em>Node</em>}'.
+	 * Creates a new adapter for an object of class '{@link org.dataflowanalysis.dfd.dataflowdiagram.Node <em>Node</em>}'.
 	 * <!-- begin-user-doc -->
 	 * This default implementation returns null so that we can easily ignore cases;
 	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
 	 * <!-- end-user-doc -->
 	 * @return the new adapter.
-	 * @see dataflowdiagram.Node
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.Node
 	 * @generated
 	 */
 	public Adapter createNodeAdapter() {

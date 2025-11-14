@@ -1,6 +1,6 @@
 /**
  */
-package dataflowdiagram;
+package org.dataflowanalysis.dfd.dataflowdiagram;
 
 import org.eclipse.emf.ecore.EFactory;
 
@@ -9,7 +9,7 @@ import org.eclipse.emf.ecore.EFactory;
  * The <b>Factory</b> for the model.
  * It provides a create method for each non-abstract class of the model.
  * <!-- end-user-doc -->
- * @see dataflowdiagram.DataflowdiagramPackage
+ * @see org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage
  * @generated
  */
 public interface DataflowdiagramFactory extends EFactory {
@@ -19,7 +19,7 @@ public interface DataflowdiagramFactory extends EFactory {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	DataflowdiagramFactory eINSTANCE = dataflowdiagram.impl.DataflowdiagramFactoryImpl.init();
+	DataflowdiagramFactory eINSTANCE = org.dataflowanalysis.dfd.dataflowdiagram.impl.DataflowdiagramFactoryImpl.init();
 
 	/**
 	 * Returns a new object of class '<em>Data Flow Diagram</em>'.

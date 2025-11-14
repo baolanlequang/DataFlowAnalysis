@@ -1,13 +1,13 @@
 /**
  */
-package dataflowdiagram.util;
+package org.dataflowanalysis.dfd.dataflowdiagram.util;
 
-import dataflowdiagram.DataFlowDiagram;
-import dataflowdiagram.DataflowdiagramPackage;
-import dataflowdiagram.External;
-import dataflowdiagram.Flow;
-import dataflowdiagram.Node;
-import dataflowdiagram.Store;
+import org.dataflowanalysis.dfd.dataflowdiagram.DataFlowDiagram;
+import org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage;
+import org.dataflowanalysis.dfd.dataflowdiagram.External;
+import org.dataflowanalysis.dfd.dataflowdiagram.Flow;
+import org.dataflowanalysis.dfd.dataflowdiagram.Node;
+import org.dataflowanalysis.dfd.dataflowdiagram.Store;
 
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EPackage;
@@ -28,7 +28,7 @@ import tools.mdsd.modelingfoundations.identifier.NamedElement;
  * until a non-null result is returned,
  * which is the result of the switch.
  * <!-- end-user-doc -->
- * @see dataflowdiagram.DataflowdiagramPackage
+ * @see org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage
  * @generated
  */
 public class DataflowdiagramSwitch<T> extends Switch<T> {
@@ -114,7 +114,7 @@ public class DataflowdiagramSwitch<T> extends Switch<T> {
 				return result;
 			}
 			case DataflowdiagramPackage.PROCESS: {
-				dataflowdiagram.Process process = (dataflowdiagram.Process)theEObject;
+				org.dataflowanalysis.dfd.dataflowdiagram.Process process = (org.dataflowanalysis.dfd.dataflowdiagram.Process)theEObject;
 				T result = caseProcess(process);
 				if (result == null) result = caseNode(process);
 				if (result == null) result = caseEntity(process);
@@ -207,7 +207,7 @@ public class DataflowdiagramSwitch<T> extends Switch<T> {
 	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
 	 * @generated
 	 */
-	public T caseProcess(dataflowdiagram.Process object) {
+	public T caseProcess(org.dataflowanalysis.dfd.dataflowdiagram.Process object) {
 		return null;
 	}
 

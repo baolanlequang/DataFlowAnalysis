@@ -1,6 +1,6 @@
 /**
  */
-package dataflowdiagram;
+package org.dataflowanalysis.dfd.dataflowdiagram;
 
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EPackage;
@@ -20,7 +20,7 @@ import tools.mdsd.modelingfoundations.identifier.IdentifierPackage;
  *   <li>and each data type</li>
  * </ul>
  * <!-- end-user-doc -->
- * @see dataflowdiagram.DataflowdiagramFactory
+ * @see org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramFactory
  * @model kind="package"
  * @generated
  */
@@ -55,14 +55,14 @@ public interface DataflowdiagramPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	DataflowdiagramPackage eINSTANCE = dataflowdiagram.impl.DataflowdiagramPackageImpl.init();
+	DataflowdiagramPackage eINSTANCE = org.dataflowanalysis.dfd.dataflowdiagram.impl.DataflowdiagramPackageImpl.init();
 
 	/**
-	 * The meta object id for the '{@link dataflowdiagram.impl.DataFlowDiagramImpl <em>Data Flow Diagram</em>}' class.
+	 * The meta object id for the '{@link org.dataflowanalysis.dfd.dataflowdiagram.impl.DataFlowDiagramImpl <em>Data Flow Diagram</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see dataflowdiagram.impl.DataFlowDiagramImpl
-	 * @see dataflowdiagram.impl.DataflowdiagramPackageImpl#getDataFlowDiagram()
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.DataFlowDiagramImpl
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.DataflowdiagramPackageImpl#getDataFlowDiagram()
 	 * @generated
 	 */
 	int DATA_FLOW_DIAGRAM = 0;
@@ -122,11 +122,11 @@ public interface DataflowdiagramPackage extends EPackage {
 	int DATA_FLOW_DIAGRAM_OPERATION_COUNT = IdentifierPackage.ENTITY_OPERATION_COUNT + 0;
 
 	/**
-	 * The meta object id for the '{@link dataflowdiagram.impl.FlowImpl <em>Flow</em>}' class.
+	 * The meta object id for the '{@link org.dataflowanalysis.dfd.dataflowdiagram.impl.FlowImpl <em>Flow</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see dataflowdiagram.impl.FlowImpl
-	 * @see dataflowdiagram.impl.DataflowdiagramPackageImpl#getFlow()
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.FlowImpl
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.DataflowdiagramPackageImpl#getFlow()
 	 * @generated
 	 */
 	int FLOW = 1;
@@ -204,11 +204,11 @@ public interface DataflowdiagramPackage extends EPackage {
 	int FLOW_OPERATION_COUNT = IdentifierPackage.ENTITY_OPERATION_COUNT + 0;
 
 	/**
-	 * The meta object id for the '{@link dataflowdiagram.impl.NodeImpl <em>Node</em>}' class.
+	 * The meta object id for the '{@link org.dataflowanalysis.dfd.dataflowdiagram.impl.NodeImpl <em>Node</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see dataflowdiagram.impl.NodeImpl
-	 * @see dataflowdiagram.impl.DataflowdiagramPackageImpl#getNode()
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.NodeImpl
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.DataflowdiagramPackageImpl#getNode()
 	 * @generated
 	 */
 	int NODE = 5;
@@ -268,11 +268,11 @@ public interface DataflowdiagramPackage extends EPackage {
 	int NODE_OPERATION_COUNT = IdentifierPackage.ENTITY_OPERATION_COUNT + 0;
 
 	/**
-	 * The meta object id for the '{@link dataflowdiagram.impl.ExternalImpl <em>External</em>}' class.
+	 * The meta object id for the '{@link org.dataflowanalysis.dfd.dataflowdiagram.impl.ExternalImpl <em>External</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see dataflowdiagram.impl.ExternalImpl
-	 * @see dataflowdiagram.impl.DataflowdiagramPackageImpl#getExternal()
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.ExternalImpl
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.DataflowdiagramPackageImpl#getExternal()
 	 * @generated
 	 */
 	int EXTERNAL = 2;
@@ -332,11 +332,11 @@ public interface DataflowdiagramPackage extends EPackage {
 	int EXTERNAL_OPERATION_COUNT = NODE_OPERATION_COUNT + 0;
 
 	/**
-	 * The meta object id for the '{@link dataflowdiagram.impl.StoreImpl <em>Store</em>}' class.
+	 * The meta object id for the '{@link org.dataflowanalysis.dfd.dataflowdiagram.impl.StoreImpl <em>Store</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see dataflowdiagram.impl.StoreImpl
-	 * @see dataflowdiagram.impl.DataflowdiagramPackageImpl#getStore()
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.StoreImpl
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.DataflowdiagramPackageImpl#getStore()
 	 * @generated
 	 */
 	int STORE = 3;
@@ -396,11 +396,11 @@ public interface DataflowdiagramPackage extends EPackage {
 	int STORE_OPERATION_COUNT = NODE_OPERATION_COUNT + 0;
 
 	/**
-	 * The meta object id for the '{@link dataflowdiagram.impl.ProcessImpl <em>Process</em>}' class.
+	 * The meta object id for the '{@link org.dataflowanalysis.dfd.dataflowdiagram.impl.ProcessImpl <em>Process</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see dataflowdiagram.impl.ProcessImpl
-	 * @see dataflowdiagram.impl.DataflowdiagramPackageImpl#getProcess()
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.ProcessImpl
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.DataflowdiagramPackageImpl#getProcess()
 	 * @generated
 	 */
 	int PROCESS = 4;
@@ -461,148 +461,148 @@ public interface DataflowdiagramPackage extends EPackage {
 
 
 	/**
-	 * Returns the meta object for class '{@link dataflowdiagram.DataFlowDiagram <em>Data Flow Diagram</em>}'.
+	 * Returns the meta object for class '{@link org.dataflowanalysis.dfd.dataflowdiagram.DataFlowDiagram <em>Data Flow Diagram</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for class '<em>Data Flow Diagram</em>'.
-	 * @see dataflowdiagram.DataFlowDiagram
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.DataFlowDiagram
 	 * @generated
 	 */
 	EClass getDataFlowDiagram();
 
 	/**
-	 * Returns the meta object for the containment reference list '{@link dataflowdiagram.DataFlowDiagram#getFlows <em>Flows</em>}'.
+	 * Returns the meta object for the containment reference list '{@link org.dataflowanalysis.dfd.dataflowdiagram.DataFlowDiagram#getFlows <em>Flows</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the containment reference list '<em>Flows</em>'.
-	 * @see dataflowdiagram.DataFlowDiagram#getFlows()
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.DataFlowDiagram#getFlows()
 	 * @see #getDataFlowDiagram()
 	 * @generated
 	 */
 	EReference getDataFlowDiagram_Flows();
 
 	/**
-	 * Returns the meta object for the containment reference list '{@link dataflowdiagram.DataFlowDiagram#getNodes <em>Nodes</em>}'.
+	 * Returns the meta object for the containment reference list '{@link org.dataflowanalysis.dfd.dataflowdiagram.DataFlowDiagram#getNodes <em>Nodes</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the containment reference list '<em>Nodes</em>'.
-	 * @see dataflowdiagram.DataFlowDiagram#getNodes()
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.DataFlowDiagram#getNodes()
 	 * @see #getDataFlowDiagram()
 	 * @generated
 	 */
 	EReference getDataFlowDiagram_Nodes();
 
 	/**
-	 * Returns the meta object for class '{@link dataflowdiagram.Flow <em>Flow</em>}'.
+	 * Returns the meta object for class '{@link org.dataflowanalysis.dfd.dataflowdiagram.Flow <em>Flow</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for class '<em>Flow</em>'.
-	 * @see dataflowdiagram.Flow
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.Flow
 	 * @generated
 	 */
 	EClass getFlow();
 
 	/**
-	 * Returns the meta object for the reference '{@link dataflowdiagram.Flow#getSourceNode <em>Source Node</em>}'.
+	 * Returns the meta object for the reference '{@link org.dataflowanalysis.dfd.dataflowdiagram.Flow#getSourceNode <em>Source Node</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the reference '<em>Source Node</em>'.
-	 * @see dataflowdiagram.Flow#getSourceNode()
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.Flow#getSourceNode()
 	 * @see #getFlow()
 	 * @generated
 	 */
 	EReference getFlow_SourceNode();
 
 	/**
-	 * Returns the meta object for the reference '{@link dataflowdiagram.Flow#getDestinationNode <em>Destination Node</em>}'.
+	 * Returns the meta object for the reference '{@link org.dataflowanalysis.dfd.dataflowdiagram.Flow#getDestinationNode <em>Destination Node</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the reference '<em>Destination Node</em>'.
-	 * @see dataflowdiagram.Flow#getDestinationNode()
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.Flow#getDestinationNode()
 	 * @see #getFlow()
 	 * @generated
 	 */
 	EReference getFlow_DestinationNode();
 
 	/**
-	 * Returns the meta object for the reference '{@link dataflowdiagram.Flow#getDestinationPin <em>Destination Pin</em>}'.
+	 * Returns the meta object for the reference '{@link org.dataflowanalysis.dfd.dataflowdiagram.Flow#getDestinationPin <em>Destination Pin</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the reference '<em>Destination Pin</em>'.
-	 * @see dataflowdiagram.Flow#getDestinationPin()
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.Flow#getDestinationPin()
 	 * @see #getFlow()
 	 * @generated
 	 */
 	EReference getFlow_DestinationPin();
 
 	/**
-	 * Returns the meta object for the reference '{@link dataflowdiagram.Flow#getSourcePin <em>Source Pin</em>}'.
+	 * Returns the meta object for the reference '{@link org.dataflowanalysis.dfd.dataflowdiagram.Flow#getSourcePin <em>Source Pin</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the reference '<em>Source Pin</em>'.
-	 * @see dataflowdiagram.Flow#getSourcePin()
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.Flow#getSourcePin()
 	 * @see #getFlow()
 	 * @generated
 	 */
 	EReference getFlow_SourcePin();
 
 	/**
-	 * Returns the meta object for class '{@link dataflowdiagram.External <em>External</em>}'.
+	 * Returns the meta object for class '{@link org.dataflowanalysis.dfd.dataflowdiagram.External <em>External</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for class '<em>External</em>'.
-	 * @see dataflowdiagram.External
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.External
 	 * @generated
 	 */
 	EClass getExternal();
 
 	/**
-	 * Returns the meta object for class '{@link dataflowdiagram.Store <em>Store</em>}'.
+	 * Returns the meta object for class '{@link org.dataflowanalysis.dfd.dataflowdiagram.Store <em>Store</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for class '<em>Store</em>'.
-	 * @see dataflowdiagram.Store
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.Store
 	 * @generated
 	 */
 	EClass getStore();
 
 	/**
-	 * Returns the meta object for class '{@link dataflowdiagram.Process <em>Process</em>}'.
+	 * Returns the meta object for class '{@link org.dataflowanalysis.dfd.dataflowdiagram.Process <em>Process</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for class '<em>Process</em>'.
-	 * @see dataflowdiagram.Process
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.Process
 	 * @generated
 	 */
 	EClass getProcess();
 
 	/**
-	 * Returns the meta object for class '{@link dataflowdiagram.Node <em>Node</em>}'.
+	 * Returns the meta object for class '{@link org.dataflowanalysis.dfd.dataflowdiagram.Node <em>Node</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for class '<em>Node</em>'.
-	 * @see dataflowdiagram.Node
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.Node
 	 * @generated
 	 */
 	EClass getNode();
 
 	/**
-	 * Returns the meta object for the reference '{@link dataflowdiagram.Node#getBehavior <em>Behavior</em>}'.
+	 * Returns the meta object for the reference '{@link org.dataflowanalysis.dfd.dataflowdiagram.Node#getBehavior <em>Behavior</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the reference '<em>Behavior</em>'.
-	 * @see dataflowdiagram.Node#getBehavior()
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.Node#getBehavior()
 	 * @see #getNode()
 	 * @generated
 	 */
 	EReference getNode_Behavior();
 
 	/**
-	 * Returns the meta object for the reference list '{@link dataflowdiagram.Node#getProperties <em>Properties</em>}'.
+	 * Returns the meta object for the reference list '{@link org.dataflowanalysis.dfd.dataflowdiagram.Node#getProperties <em>Properties</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the meta object for the reference list '<em>Properties</em>'.
-	 * @see dataflowdiagram.Node#getProperties()
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.Node#getProperties()
 	 * @see #getNode()
 	 * @generated
 	 */
@@ -632,11 +632,11 @@ public interface DataflowdiagramPackage extends EPackage {
 	 */
 	interface Literals {
 		/**
-		 * The meta object literal for the '{@link dataflowdiagram.impl.DataFlowDiagramImpl <em>Data Flow Diagram</em>}' class.
+		 * The meta object literal for the '{@link org.dataflowanalysis.dfd.dataflowdiagram.impl.DataFlowDiagramImpl <em>Data Flow Diagram</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see dataflowdiagram.impl.DataFlowDiagramImpl
-		 * @see dataflowdiagram.impl.DataflowdiagramPackageImpl#getDataFlowDiagram()
+		 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.DataFlowDiagramImpl
+		 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.DataflowdiagramPackageImpl#getDataFlowDiagram()
 		 * @generated
 		 */
 		EClass DATA_FLOW_DIAGRAM = eINSTANCE.getDataFlowDiagram();
@@ -658,11 +658,11 @@ public interface DataflowdiagramPackage extends EPackage {
 		EReference DATA_FLOW_DIAGRAM__NODES = eINSTANCE.getDataFlowDiagram_Nodes();
 
 		/**
-		 * The meta object literal for the '{@link dataflowdiagram.impl.FlowImpl <em>Flow</em>}' class.
+		 * The meta object literal for the '{@link org.dataflowanalysis.dfd.dataflowdiagram.impl.FlowImpl <em>Flow</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see dataflowdiagram.impl.FlowImpl
-		 * @see dataflowdiagram.impl.DataflowdiagramPackageImpl#getFlow()
+		 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.FlowImpl
+		 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.DataflowdiagramPackageImpl#getFlow()
 		 * @generated
 		 */
 		EClass FLOW = eINSTANCE.getFlow();
@@ -700,41 +700,41 @@ public interface DataflowdiagramPackage extends EPackage {
 		EReference FLOW__SOURCE_PIN = eINSTANCE.getFlow_SourcePin();
 
 		/**
-		 * The meta object literal for the '{@link dataflowdiagram.impl.ExternalImpl <em>External</em>}' class.
+		 * The meta object literal for the '{@link org.dataflowanalysis.dfd.dataflowdiagram.impl.ExternalImpl <em>External</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see dataflowdiagram.impl.ExternalImpl
-		 * @see dataflowdiagram.impl.DataflowdiagramPackageImpl#getExternal()
+		 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.ExternalImpl
+		 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.DataflowdiagramPackageImpl#getExternal()
 		 * @generated
 		 */
 		EClass EXTERNAL = eINSTANCE.getExternal();
 
 		/**
-		 * The meta object literal for the '{@link dataflowdiagram.impl.StoreImpl <em>Store</em>}' class.
+		 * The meta object literal for the '{@link org.dataflowanalysis.dfd.dataflowdiagram.impl.StoreImpl <em>Store</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see dataflowdiagram.impl.StoreImpl
-		 * @see dataflowdiagram.impl.DataflowdiagramPackageImpl#getStore()
+		 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.StoreImpl
+		 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.DataflowdiagramPackageImpl#getStore()
 		 * @generated
 		 */
 		EClass STORE = eINSTANCE.getStore();
 
 		/**
-		 * The meta object literal for the '{@link dataflowdiagram.impl.ProcessImpl <em>Process</em>}' class.
+		 * The meta object literal for the '{@link org.dataflowanalysis.dfd.dataflowdiagram.impl.ProcessImpl <em>Process</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see dataflowdiagram.impl.ProcessImpl
-		 * @see dataflowdiagram.impl.DataflowdiagramPackageImpl#getProcess()
+		 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.ProcessImpl
+		 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.DataflowdiagramPackageImpl#getProcess()
 		 * @generated
 		 */
 		EClass PROCESS = eINSTANCE.getProcess();
 
 		/**
-		 * The meta object literal for the '{@link dataflowdiagram.impl.NodeImpl <em>Node</em>}' class.
+		 * The meta object literal for the '{@link org.dataflowanalysis.dfd.dataflowdiagram.impl.NodeImpl <em>Node</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @see dataflowdiagram.impl.NodeImpl
-		 * @see dataflowdiagram.impl.DataflowdiagramPackageImpl#getNode()
+		 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.NodeImpl
+		 * @see org.dataflowanalysis.dfd.dataflowdiagram.impl.DataflowdiagramPackageImpl#getNode()
 		 * @generated
 		 */
 		EClass NODE = eINSTANCE.getNode();

@@ -4,7 +4,7 @@ import org.dataflowanalysis.analysis.resource.ResourceProvider;
 import org.dataflowanalysis.dfd.datadictionary.DataDictionary;
 import org.dataflowanalysis.dfd.datadictionary.datadictionaryPackage;
 import org.dataflowanalysis.dfd.dataflowdiagram.DataFlowDiagram;
-import org.dataflowanalysis.dfd.dataflowdiagram.dataflowdiagramPackage;
+import org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage;
 import org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl;
 
 /**
@@ -14,10 +14,10 @@ public abstract class DFDResourceProvider extends ResourceProvider {
     @Override
     public void setupResources() {
         this.resources.getPackageRegistry()
-                .put(dataflowdiagramPackage.eNS_URI, dataflowdiagramPackage.eINSTANCE);
+                .put(DataflowdiagramPackage.eNS_URI, DataflowdiagramPackage.eINSTANCE);
         this.resources.getResourceFactoryRegistry()
                 .getExtensionToFactoryMap()
-                .put(dataflowdiagramPackage.eNAME, new XMIResourceFactoryImpl());
+                .put(DataflowdiagramPackage.eNAME, new XMIResourceFactoryImpl());
         this.resources.getPackageRegistry()
                 .put(datadictionaryPackage.eNS_URI, datadictionaryPackage.eINSTANCE);
         this.resources.getResourceFactoryRegistry()

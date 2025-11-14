@@ -1,8 +1,8 @@
 /**
  */
-package dataflowdiagram.impl;
+package org.dataflowanalysis.dfd.dataflowdiagram.impl;
 
-import dataflowdiagram.DataflowdiagramPackage;
+import org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage;
 
 import org.eclipse.emf.ecore.EClass;
 
@@ -13,7 +13,7 @@ import org.eclipse.emf.ecore.EClass;
  *
  * @generated
  */
-public class ProcessImpl extends NodeImpl implements dataflowdiagram.Process {
+public class ProcessImpl extends NodeImpl implements org.dataflowanalysis.dfd.dataflowdiagram.Process {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

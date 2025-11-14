@@ -1,13 +1,13 @@
 /**
  */
-package dataflowdiagram.impl;
-
-import dataflowdiagram.DataFlowDiagram;
-import dataflowdiagram.DataflowdiagramPackage;
-import dataflowdiagram.Flow;
-import dataflowdiagram.Node;
+package org.dataflowanalysis.dfd.dataflowdiagram.impl;
 
 import java.util.Collection;
+
+import org.dataflowanalysis.dfd.dataflowdiagram.DataFlowDiagram;
+import org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage;
+import org.dataflowanalysis.dfd.dataflowdiagram.Flow;
+import org.dataflowanalysis.dfd.dataflowdiagram.Node;
 
 import org.eclipse.emf.common.notify.NotificationChain;
 
@@ -29,8 +29,8 @@ import tools.mdsd.modelingfoundations.identifier.impl.EntityImpl;
  * The following features are implemented:
  * </p>
  * <ul>
- *   <li>{@link dataflowdiagram.impl.DataFlowDiagramImpl#getFlows <em>Flows</em>}</li>
- *   <li>{@link dataflowdiagram.impl.DataFlowDiagramImpl#getNodes <em>Nodes</em>}</li>
+ *   <li>{@link org.dataflowanalysis.dfd.dataflowdiagram.impl.DataFlowDiagramImpl#getFlows <em>Flows</em>}</li>
+ *   <li>{@link org.dataflowanalysis.dfd.dataflowdiagram.impl.DataFlowDiagramImpl#getNodes <em>Nodes</em>}</li>
  * </ul>
  *
  * @generated

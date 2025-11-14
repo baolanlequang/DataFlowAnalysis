@@ -1,9 +1,9 @@
 /**
  */
-package dataflowdiagram.impl;
+package org.dataflowanalysis.dfd.dataflowdiagram.impl;
 
-import dataflowdiagram.DataflowdiagramPackage;
-import dataflowdiagram.External;
+import org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage;
+import org.dataflowanalysis.dfd.dataflowdiagram.External;
 
 import org.eclipse.emf.ecore.EClass;
 

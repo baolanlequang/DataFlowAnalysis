@@ -1,16 +1,16 @@
 /**
  */
-package dataflowdiagram.impl;
-
-import dataflowdiagram.DataFlowDiagram;
-import dataflowdiagram.DataflowdiagramFactory;
-import dataflowdiagram.DataflowdiagramPackage;
-import dataflowdiagram.External;
-import dataflowdiagram.Flow;
-import dataflowdiagram.Node;
-import dataflowdiagram.Store;
+package org.dataflowanalysis.dfd.dataflowdiagram.impl;
 
 import org.dataflowanalysis.dfd.datadictionary.datadictionaryPackage;
+
+import org.dataflowanalysis.dfd.dataflowdiagram.DataFlowDiagram;
+import org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramFactory;
+import org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage;
+import org.dataflowanalysis.dfd.dataflowdiagram.External;
+import org.dataflowanalysis.dfd.dataflowdiagram.Flow;
+import org.dataflowanalysis.dfd.dataflowdiagram.Node;
+import org.dataflowanalysis.dfd.dataflowdiagram.Store;
 
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EPackage;
@@ -80,7 +80,7 @@ public class DataflowdiagramPackageImpl extends EPackageImpl implements Dataflow
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @see org.eclipse.emf.ecore.EPackage.Registry
-	 * @see dataflowdiagram.DataflowdiagramPackage#eNS_URI
+	 * @see org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage#eNS_URI
 	 * @see #init()
 	 * @generated
 	 */
@@ -377,7 +377,7 @@ public class DataflowdiagramPackageImpl extends EPackageImpl implements Dataflow
 
 		initEClass(storeEClass, Store.class, "Store", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
-		initEClass(processEClass, dataflowdiagram.Process.class, "Process", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEClass(processEClass, org.dataflowanalysis.dfd.dataflowdiagram.Process.class, "Process", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
 		initEClass(nodeEClass, Node.class, "Node", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getNode_Behavior(), thedatadictionaryPackage.getBehavior(), null, "behavior", null, 0, 1, Node.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);

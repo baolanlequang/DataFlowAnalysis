@@ -1,6 +1,6 @@
 /**
  */
-package dataflowdiagram;
+package org.dataflowanalysis.dfd.dataflowdiagram;
 
 
 /**
@@ -9,7 +9,7 @@ package dataflowdiagram;
  * <!-- end-user-doc -->
  *
  *
- * @see dataflowdiagram.DataflowdiagramPackage#getStore()
+ * @see org.dataflowanalysis.dfd.dataflowdiagram.DataflowdiagramPackage#getStore()
  * @model
  * @generated
  */
